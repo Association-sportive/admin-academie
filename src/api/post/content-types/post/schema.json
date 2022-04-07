@@ -19,14 +19,15 @@
       "type": "richtext"
     },
     "img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "component",
+      "repeatable": false,
+      "component": "img.src"
+    },
+    "resume": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
