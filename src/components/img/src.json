@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_img_srcs",
+  "info": {
+    "displayName": "src",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "datasrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}
