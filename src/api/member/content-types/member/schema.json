@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "intro": {
+    "content": {
       "type": "richtext"
     },
     "image": {
@@ -28,9 +28,6 @@
         "videos",
         "audios"
       ]
-    },
-    "detail": {
-      "type": "richtext"
     }
   }
 }
